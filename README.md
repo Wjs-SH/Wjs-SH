@@ -33,7 +33,8 @@ testing them on real sensor data and in simulation.
 
 ### 🗺️ SLAM & Localization
 
-- **Floor Plan-Based Map Generation & Global Localization** — building guide-map images → navigation & semantic maps (rooms, doors), robot localization and floor identification · `ROS 2` `3D LiDAR` `Python`
+- **[Floorplan-SemanticMap](https://github.com/Wjs-SH/Floorplan-SemanticMap)** — navigation & semantic maps (rooms, room numbers, doors) from building guide-map photos with OCR + VLM · `Python` `OpenCV` `VLM`
+- **[Floorplan-Localization](https://github.com/Wjs-SH/Floorplan-Localization)** — localizing a Go2 and identifying its floor on guide-map maps with accumulated LiDAR + VLM cues · `3D LiDAR` `VLM` `Python`
 - **[Wjs-LIO_SAM](https://github.com/Wjs-SH/Wjs-LIO_SAM)** — LIO-SAM on a walking Unitree Go2 with Hesai XT16; full 3F/4F corridor runs, 4F loop end–start 0.32 m · `C++` `ROS 2 Humble`
 - **[Wjs-FAST_LIO](https://github.com/Wjs-SH/Wjs-FAST_LIO)** — FAST-LIO with Hesai support, gait-vibration handling and leg-velocity fusion; corridor length within 1% of tape measure · `C++` `ROS 2 Humble`
 
